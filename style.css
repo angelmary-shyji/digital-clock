@@ -1,0 +1,26 @@
+body{
+    background-image: url(Halifax.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}    
+
+#clock{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.152);
+    width: 80%;
+    text-shadow: 3px 3px 5px hsl(0, 0%, 0%);
+}
